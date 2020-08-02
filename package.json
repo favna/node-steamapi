@@ -24,6 +24,8 @@
 	},
 	"homepage": "https://github.com/xDimGG/node-steamapi#readme",
 	"devDependencies": {
-		"eslint-config-dim": "github:xDimGG/eslint-config-dim"
+		"@types/node": "^14.0.27",
+		"eslint-config-dim": "github:xDimGG/eslint-config-dim",
+		"typescript": "^3.9.7"
 	}
 }

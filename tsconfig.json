@@ -1,0 +1,19 @@
+{
+  "exclude": [
+    "test/**/*.js"
+  ],
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": ["ES2019"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "checkJs": true,
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "declarationDir": "types"
+  },
+  "include": ["src", "index.js"]
+}
